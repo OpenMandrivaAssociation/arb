@@ -27,11 +27,11 @@ and complex numbers, with automatic, rigorous error control.
 
 %package  -n %devname
 Summary:        Headers for developing with arb
-Requires:       %{name}%{?_isa} = %{version}-%{release}
 Requires:	%{libname} = %{version}-%{release}
 Requires:       flint-devel%{?_isa}
 Requires:       gmp-devel%{?_isa}
 Requires:       mpfr-devel%{?_isa}
+Provides:	%{name}-devel = %{version}-%{release}
 
 %description -n %devname
 Header files and library links for developing with arb.
