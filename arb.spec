@@ -9,7 +9,7 @@ Release:        1
 Summary:        Arbitrary-precision floating point ball arithmetic
 Group:		Sciences/Mathematics
 License:        GPLv2+
-URL:            http://fredrikj.net/arb/
+URL:            https://fredrikj.net/arb/
 Source0:        https://github.com/fredrik-johansson/%{name}/archive/%{version}.tar.gz
 
 BuildRequires:  flint-devel
